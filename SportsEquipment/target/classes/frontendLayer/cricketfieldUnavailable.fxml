@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="552.0" prefWidth="509.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendLayer.message">
+    <children>
+        <Label layoutX="169.0" layoutY="4.0" prefHeight="35.0" prefWidth="174.0" text="Cricket Booking" textFill="#fafafa">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Pane layoutX="11.0" layoutY="41.0" onMouseClicked="#clicked" prefHeight="491.0" prefWidth="489.0" styleClass="mainPane" stylesheets="@application.css">
+         <children>
+            <Label layoutX="10.0" layoutY="133.0" prefHeight="139.0" prefWidth="470.0" text="Cricket Ground Unavailable!!!">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="closeButton" fitHeight="47.0" fitWidth="26.0" layoutX="450.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@close.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="minimizeButton" fitHeight="47.0" fitWidth="26.0" layoutX="417.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hide.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
