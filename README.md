@@ -1,6 +1,6 @@
 # SE_PROJECT
 
-##Requirements
+Requirements
 1) IntelliJ or Eclipse
 2) JavaFX (JDK or can be intalled through maven script)
 3) MongoDB
